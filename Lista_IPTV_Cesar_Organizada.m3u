@@ -1,37 +1,63 @@
 #EXTM3U
 
-# ===== ⭐ FAVORITOS =====
-# Caracol TV
-# RCN TV
-# Canal 1
-# CityTV
-# Señal Colombia
-# Canal Institucional
+############################
+# 🇨🇴 COLOMBIA (PÚBLICOS)
+############################
 
-# ===== 🇨🇴 COLOMBIA =====
-# https://iptv-org.github.io/iptv/countries/co.m3u
+#EXTINF:-1 group-title="Colombia",Señal Colombia
+https://streaming.rtvc.gov.co/hls/senalcolombia.m3u8
 
-# ===== 📰 NOTICIAS =====
-# https://iptv-org.github.io/iptv/categories/news.m3u
+#EXTINF:-1 group-title="Colombia",Canal Institucional
+https://streaming.rtvc.gov.co/hls/canalinstitucional.m3u8
 
-# ===== 🎬 PELÍCULAS =====
-# https://iptv-org.github.io/iptv/categories/movies.m3u
 
-# ===== 📺 SERIES =====
-# https://iptv-org.github.io/iptv/categories/series.m3u
+############################
+# 🌍 NOTICIAS INTERNACIONALES
+############################
 
-# ===== ⚽ DEPORTES =====
-# https://iptv-org.github.io/iptv/categories/sports.m3u
+#EXTINF:-1 group-title="Noticias",DW Español
+https://dwstream72-lh.akamaihd.net/i/dwstream72_live@120422/master.m3u8
 
-# ===== 📚 CULTURA Y EDUCACIÓN =====
-# https://iptv-org.github.io/iptv/categories/documentary.m3u
-# https://iptv-org.github.io/iptv/categories/education.m3u
+#EXTINF:-1 group-title="Noticias",France 24 Español
+https://www.france24.com/es/live.m3u8
 
-# ===== ⛪ RELIGIOSOS =====
-# https://iptv-org.github.io/iptv/categories/religious.m3u
+#EXTINF:-1 group-title="Noticias",RT Noticias (puede variar por región)
+https://rt-esp.rttv.com/live.m3u8
 
-# ===== 🎵 MÚSICA =====
-# https://iptv-org.github.io/iptv/categories/music.m3u
 
-# ===== 🌍 INTERNACIONALES =====
-# https://iptv-org.github.io/iptv/index.category.m3u
+############################
+# 🎓 EDUCATIVO / CULTURAL
+############################
+
+#EXTINF:-1 group-title="Educativo",NASA TV (En vivo)
+https://nasatv-lh.akamaihd.net/i/NASA_101@319270/master.m3u8
+
+#EXTINF:-1 group-title="Cultural",DW Documentales (YouTube Live)
+https://www.youtube.com/watch?v=5qap5aO4i9A
+
+
+############################
+# ⛪ RELIGIOSO
+############################
+
+#EXTINF:-1 group-title="Religioso",EWTN Español (YouTube Live)
+https://www.youtube.com/watch?v=QWZL9oZ3w7k
+
+#EXTINF:-1 group-title="Religioso",Canal Cristiano (YouTube Live)
+https://www.youtube.com/watch?v=KtQZ4J5a3bE
+
+
+############################
+# 🎵 MÚSICA
+############################
+
+#EXTINF:-1 group-title="Música",Música en vivo YouTube
+https://www.youtube.com/watch?v=jfKfPfyJRdk
+
+
+############################
+# 📺 INFOTAINMENT / VARIOS
+############################
+
+#EXTINF:-1 group-title="Entretenimiento",Stream TV Libre (YouTube ejemplo)
+https://www.youtube.com/watch?v=21X5lGlDOfg
